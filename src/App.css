@@ -1,6 +1,4 @@
-/* src/App.css */
 
-/* 1. Global Reset & Base Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,8 +7,8 @@
 }
 
 body {
-  background-color: #0f172a; /* Deep slate background */
-  color: #e2e8f0; /* Light text */
+  background-color: #0f172a;
+  color: #e2e8f0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -47,7 +45,6 @@ body {
   gap: 2rem;
 }
 
-/* 3. Card Styles (Applied to all components) */
 .card {
   background-color: #1e293b;
   border: 1px solid #334155;
@@ -66,12 +63,11 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1.25rem;
-  color: #38bdf8; /* Bright blue accent */
+  color: #38bdf8;
   border-bottom: 1px solid #334155;
   padding-bottom: 0.75rem;
 }
 
-/* 4. Form Elements (Inputs & Buttons) */
 input[type="text"] {
   width: 100%;
   padding: 0.75rem 1rem;
@@ -119,7 +115,6 @@ button {
   background-color: #334155;
 }
 
-/* 5. Specific Component Tweaks */
 .counter-display {
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -137,7 +132,6 @@ button {
   justify-content: center;
 }
 
-/* Todo List */
 .todo-input-group {
   display: flex;
   gap: 0.5rem;
@@ -162,7 +156,6 @@ button {
   margin-bottom: 0.5rem;
 }
 
-/* Profile Loader */
 .profile-info p {
   margin-bottom: 0.5rem;
   font-size: 1rem;
@@ -172,7 +165,6 @@ button {
   color: #94a3b8;
 }
 
-/* Search Box */
 .render-stats {
   margin-top: 1rem;
   font-size: 0.9rem;

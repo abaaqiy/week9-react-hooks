@@ -6,7 +6,6 @@ function ProfileCard() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      // Your details are updated here
       setProfile({
         name: "Abdulbaaqiy Shefiu-Badamosi",
         email: "abdulbaaqiyshefiu@gmail.com",
